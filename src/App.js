@@ -19,7 +19,7 @@ function App() {
       <ul>
         <li> <a href="/" target="_blank" rel="noreferrer">Abuja</a></li>
         <li> <a href="/" target="_blank" rel="noreferrer">Paris</a></li>
-        <li> <a href="/" target="_blank" rel="noreferrer">Toronto</a></li>
+        <li> <a href="/" target="_blank" rel="noreferrer">London</a></li>
         <li> <a href="/" target="_blank" rel="noreferrer">Toronto</a></li>
       </ul>
       </div>
