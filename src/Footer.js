@@ -10,13 +10,13 @@ export default function Footer() {
         </a>{" "}
         {""}
         and is {""}
-        <a href="https://github.com/Cheta008/my-weather-app" target="_blank" rel="noreferrer">
+        <a href="https://github.com/Cheta008/my-react-weather-app" target="_blank" rel="noreferrer">
           on GitHub
         </a>{" "}
         {""}
         and {""}
         <a
-          href="https://main--whimsical-fox-eee0fc.netlify.app/"
+          href="https://legendary-pika-c80d72.netlify.app/"
           target="_blank" rel="noreferrer"
         >
           hosted on Netlify
