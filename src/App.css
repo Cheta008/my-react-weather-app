@@ -4,12 +4,13 @@ body {
 }
 
 .App {
-  background: white;
-  max-width: 500px;
+  max-width: 600px;
   margin: 60px auto;
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border: 1px solid #DADDE1;
+  border-radius: 4px;
+  margin: 30px auto;
+
 }
 
 .Fav-places {
@@ -28,21 +29,25 @@ body {
 }
 
 .search-input {
-   border-radius: 2px;
-    border: none;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
-    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #DADDE1;
+    line-height: 1.5;
+    font-weight: 400;
+    height: 2px;
     outline: 0;
-    padding: 10px;
+    padding:  18px 6px;
     width: 80%;
 }
 
 .search-button {
     color: #fff;
-    height: 44px;
     background-color: burlywood;
     width: 20%;
-    border: none;
+    border-radius: 5px;
+    padding: 6px 15px;
+    border: 1px solid transparent;
+    line-height: 1.5;
+
 }
 
 .weather-summary {

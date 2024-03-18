@@ -1,4 +1,5 @@
 import './App.css';
+
 import Form from "./Form.js";
 import City from "./City.js";
 import Date from './Date.js';
@@ -15,6 +16,7 @@ import Footer from "./Footer.js";
 function App() {
   return (
     <div className="App">
+      <div className='container'>
       <div className='Fav-places'>
       <ul>
         <li> <a href="/" target="_blank" rel="noreferrer">Abuja</a></li>
@@ -39,6 +41,7 @@ function App() {
       </div>
       <Forecast />
       <Footer />
+      </div>
       </div>
   );
 }
