@@ -32,11 +32,12 @@ function App() {
         <Description />
       </div>
       <div className='weather'>
-      <div className='weather-temp'>
-        <Icon /><Temperature />< span className='temp-unit'>°C</span>
-      </div>
-       <div className='weather-details'>
+      <div className='weather-temp row'>
+          <div className='col-8'>
+        <Icon /><Temperature />< span className='temp-unit'>°C</span></div>
+       <div className='weather-details col-4'>
         <Humidity /><br /><Wind />
+      </div>
       </div>
       </div>
       <Forecast />
